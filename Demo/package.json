@@ -1,11 +1,11 @@
 {
-  "homepage": "https://your-username.github.io/deploydemo/",
+  "homepage": "https://rahulajay34.github.io/deploydemo/",
   "name": "demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "vite dist",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
